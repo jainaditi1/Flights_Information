@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Flights xmlns="https://www.aditi.com/flightsInformationServices">
+                                            
+    
+    
+
+    
+    
+    
+        
+    
+    
+    
+    
+    
+                
+
+
+    
+    
+    
+    
+            
+
+
+    
+    <Flight flightNumber="EM0787Amnrish">
+                
+        <departedFrom>Portland</departedFrom>
+                
+        <destination>Seattle</destination>
+                
+        <status>NOT_STARTED</status>
+            
+    </Flight>
+    
+</Flights>
