@@ -1,4 +1,4 @@
-package com.personal.projects.FlightStatus.unitTests;
+package com.personal.projects.FlightStatus.Unit;
 
 import org.junit.Test;
 
