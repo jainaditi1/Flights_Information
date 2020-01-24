@@ -1,10 +1,13 @@
 package com.personal.projects.FlightStatus.Mocks;
 
 
+import static org.junit.Assert.assertEquals;
+import static org.mockito.Matchers.anyString;
 import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 import com.personal.projects.FlightStatus.business.FlightInformationBusinessImpl;
 import com.personal.projects.FlightStatus.model.Flight;
@@ -40,6 +43,17 @@ public class FlightInformationBusinessMockTest
     	//WHEN THE METHOD RETURNS ***VOID***
     	doNothing().when(flightInformationService).addFlight(flight);
     	verify(flightInformationService, times(1)).addFlight(flight);
+    	
+    	
+    	
+    	
+    	//When not return void
+    	//****ARGUMENT MATCHER*****
+//    	when(flightInformationService.addFlight(flight)).thenReturn(patients);
+//    	results = hospitalServiceBusinessImpl.getWaitingPatientsListForDoctor("dummy");
+//    	assertEquals(2, results.size());
+    	
+    	
     }
     
 }
